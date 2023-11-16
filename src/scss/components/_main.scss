@@ -1,0 +1,40 @@
+.main {
+  background: url('../../assets/img/newbg.jpeg') 0 0/100% 90% no-repeat;
+  .main__container {
+    height: 65vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+  }
+  .title {
+    font-family: 'Cormorant';
+    font-weight: 500;
+    font-size: 48px;
+    width: 650px;
+    text-transform: uppercase;
+
+    .orange {
+      color: #f0a62b;
+      font-weight: 900;
+    }
+  }
+
+  .subtitle {
+    font-size: 18px;
+    width: 650px;
+    margin-bottom: 30px;
+  }
+
+  .orderBtn {
+    button {
+      font-size: 14px;
+      padding: 24px 30px;
+      border-radius: 35px;
+      background: #f0a62b;
+      color: #000;
+      // text-transform: uppercase;
+    }
+  }
+}
