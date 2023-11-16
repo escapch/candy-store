@@ -1,7 +1,7 @@
 .main {
   background: url('../../assets/img/newbg.jpeg') 0 0/100% 90% no-repeat;
   .main__container {
-    height: 65vw;
+    height: 63vw;
 
     display: flex;
     flex-direction: column;
@@ -28,7 +28,8 @@
   }
 
   .orderBtn {
-    button {
+    margin-top: 10px;
+    a {
       font-size: 14px;
       padding: 24px 30px;
       border-radius: 35px;

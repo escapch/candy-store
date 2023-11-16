@@ -1,0 +1,25 @@
+.popular {
+  &__content {
+  }
+
+  &__title {
+    font-size: 18px;
+    color: #29221f;
+    font-weight: 800;
+    text-align: center;
+  }
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 46px;
+    grid-row-gap: 40px;
+
+    @media (max-width: 1440px) {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: auto;
+      grid-row-gap: 40px;
+    }
+  }
+}

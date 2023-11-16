@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Main = () => {
   return (
     <div className="main">
@@ -16,7 +18,7 @@ const Main = () => {
           </p>
         </div>
         <div className="orderBtn">
-          <button>Перейти в каталог</button>
+          <Link to="/catalog">Перейти в каталог</Link>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import logo from '../assets/img/logo-Candy.png';
 import telegram from '../assets/img/telegram.png';
 import whatsapp from '../assets/img/whatsapp.png';
 import gps from '../assets/img/location.png';
+import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <div className="header">
@@ -11,9 +12,9 @@ const Header = () => {
             <img src={gps} alt="" />
             <a href="/">город Ош</a>
           </div>
-          <div className="header__logo">
+          <Link to="/" className="header__logo">
             <img src={logo} alt="logo" />
-          </div>
+          </Link>
           <div className="tel">
             <a href="/">+996 500 968 094</a>
             <div className="messengers">

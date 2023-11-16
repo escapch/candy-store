@@ -1,7 +1,9 @@
 .categories {
   // padding-bottom: 60px;
+  padding-top: 170px;
   &__container {
-  }
+    padding: 40px 0;
+  } 
 
   &__title {
     text-align: center;
@@ -16,6 +18,7 @@
       color: #7e4800;
       font-family: 'Cormorant';
       font-size: 48px;
+      font-weight: 500;
     }
   }
 
@@ -23,10 +26,12 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 40px;
     li {
       font-size: 14px;
       padding: 15px 30px;
       border-radius: 22px;
+      font-weight: 500;
       text-transform: uppercase;
       color: #613e43;
       cursor: pointer;
@@ -34,11 +39,11 @@
     }
 
     li:hover {
-      background: #613e43;
+      background: #f0a62b;
       color: #fff;
     }
     li.activ {
-      background: #613e43;
+      background: #f0a62b;
       color: #fff;
     }
   }
